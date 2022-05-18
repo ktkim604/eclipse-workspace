@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 	    ArrayList<Integer> arr = new ArrayList<>();
-	    for (int i = 0; i < 10; i++) {
+	    for (int i = 0; i < 8; i++) {
 	      arr.push(sc.nextInt());
 	    }
 	for (int i = 0; i < arr.getSize(); i++){
@@ -19,6 +19,6 @@ public class Main {
 	    }
 	  }}
 
-	    System.out.println(arr.toString());
+	    System.out.print(arr.toString());
 	}
 }

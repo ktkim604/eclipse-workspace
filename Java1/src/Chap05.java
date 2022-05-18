@@ -29,6 +29,7 @@ public class Chap05 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Car sonata = new Car();
+		
 		sonata.setSpeed(100);
 		System.out.println("현재 자동차의 속도는 " + sonata.getSpeed() + "km");
 		
