@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
-public class bk_15552 {
+public class bk_10871 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int T = sc.nextInt();
+		int N = sc.nextInt();
+		int X = sc.nextInt();
 		
-		for(int i=0; i<T; i++) {
+		for(int i=0; i<N; i++) {
 			int A = sc.nextInt();
-			int B = sc.nextInt();
-			
-			System.out.println(A + B);
+			if(A < X) {
+				System.out.print(A + " ");
+			}
 		}
-		
 
 	}
 
