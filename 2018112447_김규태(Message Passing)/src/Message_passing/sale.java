@@ -26,7 +26,7 @@ public class sale {
 		System.out.println("고급차 판매량 : "+ high_car +"만대"+", 일반차 판매량 : "+normal_car+"만대");
 		
 	}
-	public void success_sale(int i, int j, production Car) {
+	public void sales_volume(int i, int j, production Car) {
 		high_car += i;
 		normal_car += j;
 		

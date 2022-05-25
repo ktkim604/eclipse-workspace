@@ -3,6 +3,16 @@ package Message_passing;
 public class production {
 	private int Suv;
 	private int Small_car;
+	private String expensive;
+	private String cheap;
+	
+	public production() {}
+	public production(String expensive, String cheap) {
+		this.expensive = expensive;
+		this.cheap = cheap;
+		System.out.println("----------[" + expensive + ", " + cheap +" ºñ±³]----------");
+		
+	}
 	
 
 	public void set(int i, int j) {
