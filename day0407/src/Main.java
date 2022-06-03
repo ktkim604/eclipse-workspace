@@ -8,7 +8,7 @@ public class Main {
 		System.out.println("[Practice 3-6]");
 		System.out.println("[ menu ]");
 		System.out.println("0 : exit");
-		System.out.println("1 : input (array");
+		System.out.println("1 : input (array)");
 		System.out.println("2 : show (array)");
 		System.out.println("3 : menu");
 		
@@ -30,7 +30,7 @@ public class Main {
 			}
 			else if (a == 2){
 				for(int i=0; i<b; i++) {
-					System.out.println(int_arr[i] + " ");
+					System.out.print(int_arr[i] + " ");
 				}
 			}
 			else if (a == 3) {
