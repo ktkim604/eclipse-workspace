@@ -45,6 +45,7 @@ public class Main {
 		
 		
 	}
+	
 
 	private static char next(char c) {
 		// TODO Auto-generated method stub
