@@ -2,34 +2,6 @@ package 기말01;
 
 import java.util.Arrays;
 
-class TV{
-	private int channel;
-	
-	TV(int n){
-		channel = n;
-	}
-
-	int get_channel() {
-		return channel;
-	}
-
-	
-}
-
-class AI_TV extends TV{
-	private String command;
-	AI_TV(String command, int n){
-		super(n);
-		this.command = command;
-	}
-	
-	void command(String a) {
-		if(a.equals(command))     //문자열 비교 == 아님 !!!! 주의하자!!  --> a.equals(command)
-			System.out.println("주인님! 현재 채널은 " + get_channel() + "번");
-		else
-			System.out.println("주인님! 저는 " + a + "가 아니예요.");
-	}
-}
 class Practice{
 	private int num;
 	
@@ -79,8 +51,39 @@ class Practice{
 		
 	}
 }
+
+class TV{
+	private int channel;
+	
+	TV(int n){
+		channel = n;
+	}
+
+	int get_channel() {
+		return channel;
+	}
+
+	
+}
+
+class AI_TV extends TV{
+	private String command;
+	AI_TV(String command, int n){
+		super(n);
+		this.command = command;
+	}
+	
+	void command(String a) {
+		if(a.equals(command))     //문자열 비교 == 아님 !!!! 주의하자!!  --> a.equals(command)
+			System.out.println("주인님! 현재 채널은 " + get_channel() + "번");
+		else
+			System.out.println("주인님! 저는 " + a + "가 아니예요.");
+	}
+}
+
 	
 public class Main {
+	//대문자를 소문자로 변환 코드
 	static String lower(char c){
 		String str = String.valueOf(c);
 		String s = str.toLowerCase();
